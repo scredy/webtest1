@@ -5,64 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GreenBite | Recipes</title>
 
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/recipes.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/recipes.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-  
-  <script src="./js/recipes.js" defer></script>
+
+
+
+  <script defer src="/js/recipes.js"></script>
 </head>
 <body>
- <nav class="navbar">
+ 
+  <header>
+    <nav class="navbar">
       <div class="logo-section">
-        <div>
-          <img src="./images/logo.jpeg" alt="logo" class="logo-img">
-        </div>
+        <div><img src="/images/logo.jpeg" alt="logo" class="logo-img"></div>
         <div class="logo">GreenBite</div>
       </div>
       <ul class="nav-links">
-        <li><a href="./index.html" class="active">Home</a></li>
-        <li><a href="./recipes.html">Recipes</a></li>
-        <li><a href="./calculator.html">Calculator</a></li>
-        <li><a href="./workouts.html">Workouts</a></li>
-        <li><a href="./mindfulness.html">Mindfulness</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="recipes.html">Recipes</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="workouts.html">Workouts</a></li>
+        <li><a href="mindfulness.html">Mindfulness</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
-      <div class="hamburger">
-        <span></span><span></span><span></span>
-      </div>
-  </nav>
-  <div class="search-bar container">
-    <input type="text" id="search-input" placeholder="Search recipes..." />
-    <select id="category-filter">
-      <option value="all">All</option>
-      <option value="breakfast">Breakfast</option>
-      <option value="lunch">Lunch</option>
-      <option value="dinner">Dinner</option>
-    </select>
-  </div>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+  </header>
 
-  <section class="recipes container" id="recipe-list">
-    <!-- Recipe Modal -->
-<div id="recipe-modal" class="modal">
-  <div class="modal-content">
-    <span class="close-btn">&times;</span>
-    
-    <h2 id="recipe-title"></h2>
-    <img id="recipe-image" src="" alt="Recipe image" style="max-width:100%; height:auto;">
-    
-    <h3>Ingredients</h3>
-    <ul id="recipe-ingredients"></ul>
-    
-    <h3>Steps</h3>
-    <ol id="recipe-steps"></ol>
-    
-    <h3>Nutrition</h3>
-    <table id="nutrition-table"></table>
-  </div>
+ 
+<div class="search-bar container">
+  <input type="text" id="search-input" placeholder="Search recipes..." />
+  <select id="category-filter">
+    <option value="all">All</option>
+    <option value="breakfast">Breakfast</option>
+    <option value="lunch">Lunch</option>
+    <option value="dinner">Dinner</option>
+  </select>
 </div>
 
-  </section>
 
+  
+  <section class="recipes container" id="recipe-list">
+
+  
+  <div id="recipe-modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button class="close-btn" aria-label="Close">&times;</button>
+
+      <h2 id="recipe-title">Recipe Title</h2>
+
+      <h3>Ingredients</h3>
+      <ul id="recipe-ingredients"></ul>
+
+      <h3>Steps</h3>
+      <ol id="recipe-steps"></ol>
+
+      <h3>Nutrition Info</h3>
+      <table id="nutrition-table"></table>
+    </div>
+  </div>
+  </section>
   <div id="recipe-modal" class="modal">
   <div class="modal-content">
     <button class="close-btn">&times;</button>
@@ -80,8 +83,7 @@
     <table id="nutrition-table"></table>
   </div>
 </div>
-
-
+ </section> 
   <footer>
     <div class="footer-content container">
       <div class="footer-left">
@@ -93,12 +95,18 @@
           <button type="submit">Subscribe</button>
         </form>
         <div class="social-icons">
-          <a href="https://facebook.com/"><i class="bi bi-facebook icon"></i></a>
-          <a href="https://instagram.com/"><i class="bi bi-instagram icon"></i></a>
-          <a href="https://youtube.com/"><i class="bi bi-youtube icon"></i></a>
-          <a href="https://whatsapp.com/"><i class="bi bi-whatsapp icon"></i></a>
-          <a href="https://tiktok.com/"><i class="bi bi-tiktok icon"></i></a>
-          <a href="https://gmail.com/"><i class="bi bi-envelope-at icon"></i></a>
+          <a href="https://facebook.com/">
+            <i class="bi bi-facebook icon"></i> </a>
+            <a href="https://instagram.com/">
+            <i class="bi bi-instagram icon"></i></a>
+            <a href="https://youtube.com/">
+            <i class="bi bi-youtube icon"></i></a>
+            <a href="https://whatsapp.com/">  
+            <i class="bi bi-whatsapp icon"></i></a>
+            <a href="https://tiktok.com/">
+            <i class="bi bi-tiktok icon"></i></a>
+            <a href="https://gmail.com/">
+            <i class="bi bi-envelope-at icon"></i></a>
         </div>
       </div>
     </div>
