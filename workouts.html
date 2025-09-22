@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenBite • Workout</title>
+  <link rel="stylesheet" href="/css/workouts.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <script defer src="/js/utils.js"></script>
+  <script defer src="/js/workouts.js"></script>
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo-section">
+      <div><img src="/images/logo.jpeg" alt="logo" class="logo-img"></div>
+      <div class="logo">GreenBite</div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="calculator.html">Calculator</a></li>
+      <li><a href="workouts.html" class="active">Workouts</a></li>
+      <li><a href="mindfulness.html">Mindfulness</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+</header>
+
+<main class="container">
+  
+  <section class="workout-hero">
+    <h1>Your Daily Workout Builder</h1>
+    <p class="sub">
+      Tailor your fitness routine. Select your focus and equipment, and let
+      GreenBite create a personalized workout plan for you.
+    </p>
+  </section>
+
+  
+
+  
+  <section class="workout-layout">
+    
+    <aside class="build-card">
+      <h3>Build Your Workout</h3>
+      <p class="tiny">Select your preferences to generate a custom routine.</p>
+
+      <form id="workoutForm" class="build-form">
+        <label>Target Body Part
+          <select id="bodyPart">
+            <option>Full Body</option>
+            <option>Arms</option>
+            <option>Legs</option>
+          </select>
+        </label>
+
+        <label>Available Equipment
+          <select id="equipment">
+            <option>None</option>
+            <option>Dumbbells</option>
+          </select>
+        </label>
+
+        <button type="submit" class="btn-green">Generate Workout</button>
+      </form>
+    </aside>
+    
+    
+    <section class="plan-area">
+      <h2>Your Personalized Workout Plan</h2>
+     
+      <div id="workoutPlan" class="plan-grid"></div>
+
+      
+      <div class="start-row">
+        <button class="btn-green" id="startWorkoutBtn">Start Workout</button>
+      </div>
+    </section>
+  
+</main>
+
+<audio id="beep" src="assets/sounds/beep.mp3"></audio>
+
+
+<footer>
+  <div class="footer-content container">
+    <div class="footer-left">
+      <p>&copy; 2025 GreenBite. All rights reserved.</p>
+    </div>
+    <div class="footer-right">
+      <form id="newsletter-form">
+        <input type="email" id="newsletter-email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="social-icons">
+        <a href="https://facebook.com/"><i class="bi bi-facebook icon"></i></a>
+        <a href="https://instagram.com/"><i class="bi bi-instagram icon"></i></a>
+        <a href="https://youtube.com/"><i class="bi bi-youtube icon"></i></a>
+        <a href="https://whatsapp.com/"><i class="bi bi-whatsapp icon"></i></a>
+        <a href="https://tiktok.com/"><i class="bi bi-tiktok icon"></i></a>
+        <a href="https://gmail.com/"><i class="bi bi-envelope-at icon"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

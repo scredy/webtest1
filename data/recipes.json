@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Classic Avocado Toast with Poached Egg",
+    "category": "breakfast",
+    "image": "/images/avaco toast.png",
+    "description": "A timeless breakfast favorite, elevated with a silky poached egg.",
+    "ingredients": [
+      "2 slices whole-grain bread",
+      "1 ripe avocado",
+      "1 egg (poached)",
+      "Pinch of salt & pepper",
+      "Chili flakes (optional)",
+      "Lemon juice (optional)"
+    ],
+    "steps": [
+      "Toast the bread to your liking.",
+      "Mash avocado with salt, pepper and a squeeze of lemon.",
+      "Spread avocado on toast.",
+      "Poach the egg and place on top. Finish with chili flakes."
+    ],
+    "nutrition": { "Calories": 360, "Protein": "14g", "Carbs": "34g", "Fat": "20g" }
+  },
+  {
+    "title": "Mediterranean Quinoa Salad with Grilled Chicken",
+    "category": "lunch",
+    "image": "/images/quino salad.png",
+    "description": "A light yet filling salad packed with protein, veggies and herby flavor.",
+    "ingredients": [
+      "1 cup cooked quinoa",
+      "150 g grilled chicken, sliced",
+      "1/2 cup cucumber, diced",
+      "1/2 cup cherry tomatoes, halved",
+      "2 tbsp olives, sliced",
+      "2 tbsp feta (optional)",
+      "1 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "Salt & pepper"
+    ],
+    "steps": [
+      "Cook quinoa and let it cool slightly.",
+      "Grill or pan-cook chicken; slice thinly.",
+      "Combine quinoa, veggies, olives and chicken.",
+      "Dress with olive oil, lemon, salt and pepper. Add feta if using."
+    ],
+    "nutrition": { "Calories": 450, "Protein": "32g", "Carbs": "44g", "Fat": "14g" }
+  },
+  {
+    "title": "Lemon Herb Baked Salmon with Asparagus",
+    "category": "dinner",
+    "image": "/images/salmon.png",
+    "description": "An easy one-pan dinner with tender salmon and crisp asparagus.",
+    "ingredients": [
+      "1 salmon fillet (180–200 g)",
+      "10–12 asparagus spears",
+      "1 tbsp olive oil",
+      "1 tsp garlic (minced)",
+      "Lemon slices",
+      "Salt & pepper"
+    ],
+    "steps": [
+      "Preheat oven to 200°C.",
+      "Place salmon and asparagus on a tray; drizzle with olive oil and garlic.",
+      "Season, add lemon slices on salmon.",
+      "Bake 12–15 minutes until salmon flakes easily."
+    ],
+    "nutrition": { "Calories": 420, "Protein": "35g", "Carbs": "6g", "Fat": "28g" }
+  },
+  {
+    "title": "Refreshing Mixed Berry Smoothie",
+    "category": "breakfast",
+    "image": "/images/smoothi.png",
+    "description": "A quick, antioxidant-rich smoothie that’s perfect on the go.",
+    "ingredients": [
+      "1 cup mixed berries (frozen is fine)",
+      "1 banana",
+      "1 cup milk or yogurt (dairy or plant)",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Add all ingredients to a blender.",
+      "Blend until smooth. Adjust thickness with milk."
+    ],
+    "nutrition": { "Calories": 250, "Protein": "8g", "Carbs": "45g", "Fat": "3g" }
+  },
+  {
+    "title": "Healthy Avocado Chocolate Mousse",
+    "category": "dinner",
+    "image": "/images/mousse.png",
+    "description": "Creamy, rich dessert that’s naturally sweetened and nutritious.",
+    "ingredients": [
+      "1 ripe avocado",
+      "2 tbsp cocoa powder",
+      "2–3 tbsp milk (dairy or plant)",
+      "1–2 tbsp honey or maple syrup",
+      "Pinch of salt",
+      "Vanilla (optional)"
+    ],
+    "steps": [
+      "Blend avocado, cocoa, milk and sweetener until silky.",
+      "Add salt and vanilla to taste. Chill 20 minutes before serving."
+    ],
+    "nutrition": { "Calories": 260, "Protein": "4g", "Carbs": "24g", "Fat": "18g" }
+  }
+]

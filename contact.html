@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenBite | Contact</title>
+  <link rel="stylesheet" href="/css/contact.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <script defer src="/js/contact.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo-section">
+        <div><img src="/images/logo.jpeg" alt="logo" class="logo-img"></div>
+        <div class="logo">GreenBite</div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        <li><a href="workouts.html">Workouts</a></li>
+        <li><a href="mindfulness.html">Mindfulness</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <textarea id="message" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="confirmation"></p>
+
+    <h2>Our Headquarters</h2>
+    <div class="hq-container">
+      <img src="/images/greenbite_hq.png" alt="GreenBite HQ" />
+      <p>GreenBite HQ: 123 Healthy Ave, Wellness City, WB 90210</p>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq">
+      <button class="faq-question">What is GreenBite?</button>
+      <p class="faq-answer">We promote wellness through healthy living.</p>
+
+      <button class="faq-question">How do I get started with GreenBite?</button>
+      <p class="faq-answer">Sign up and get personalized recipes, workouts, and mindfulness tools.</p>
+
+      <button class="faq-question">Is GreenBite free to use?</button>
+      <p class="faq-answer">Yes! GreenBite is free for all users to enjoy.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content container">
+      <div class="footer-left">
+        <p>&copy; 2025 GreenBite. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <form id="newsletter-form">
+          <input type="email" id="newsletter-email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <div class="social-icons">
+          <a href="https://facebook.com/"><i class="bi bi-facebook icon"></i></a>
+          <a href="https://instagram.com/"><i class="bi bi-instagram icon"></i></a>
+          <a href="https://youtube.com/"><i class="bi bi-youtube icon"></i></a>
+          <a href="https://whatsapp.com/"><i class="bi bi-whatsapp icon"></i></a>
+          <a href="https://tiktok.com/"><i class="bi bi-tiktok icon"></i></a>
+          <a href="https://gmail.com/"><i class="bi bi-envelope-at icon"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

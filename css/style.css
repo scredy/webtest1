@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fff;
+  color: var(--text);
+}
+
+
+.container{
+    max-width: 95%;
+    margin: auto;
+}
+
+
+
+ #slogan {
+  transition: opacity 0.6s ease-in-out;
+  opacity: 1;
+ }
+
+.slogan-fade {
+  opacity: 0;
+}
+
+
+.hero {
+  position: relative;
+  min-height: 100vh;                
+  width: 100%;
+  display: flex;
+  align-items: center;              
+  justify-content: center;          
+  text-align: center;
+  background: url("/images/hero.webp") center/cover no-repeat; 
+  overflow: hidden;
+}
+
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.35),
+    rgba(0,0,0,0.55)
+  );
+}
+
+
+.hero-content {
+  position: relative;             
+  z-index: 1;
+  color: #fff;
+  padding: 16px;
+  max-width: 900px;
+}
+
+
+.hero-content h1 {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  line-height: 1.15;
+  margin: 0 0 .6rem;
+}
+.hero-content p {
+  margin: 0 0 1.2rem;
+  color: #f1f5f9;
+}
+
+
+
+
+.hero .btn-primary {
+  background: #4caf50;
+  color: #fff;
+  border-radius: 8px;
+  padding: .8rem 1.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+}
+.hero .btn-primary:hover { filter: brightness(.95); }
+
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  background: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.btn-primary:hover {
+  background: #43a047;
+}
+
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+.feature-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+  position: relative;
+  overflow: hidden;
+  height: 450px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+}
+.feature-card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;  
+  margin-bottom: 0.5rem;
+}
+.feature-card h3 {
+  margin: 1rem 0 0.5rem;
+  color: #4caf50;
+}
+.feature-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+.btn-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+
+.tip {
+  margin: 3rem auto;
+  text-align: center;
+}
+.tip h2 {
+  color: #4caf50;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+.tip p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 2rem 0;
+}
+.icon{
+  text-decoration: none;
+  color: white;
+ 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer form {
+  margin-top: 0.5rem;
+}
+footer input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+footer button {
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-left: 0.5rem;
+  background: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+a{
+   padding: 3px;
+}
+
+.social-icons :hover {
+
+  color: #4caf50;
+}
+.social-icons {
+  margin-top: 1rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+  }
+
+  .features-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero{
+    flex-direction: column;
+   
+  }
+
+  .feature-card{
+    padding-bottom: 100px;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center; 
+  }
+}

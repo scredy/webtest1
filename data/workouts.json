@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Jumping Jacks",
+    "bodyPart": "Full Body",
+    "equipment": "None",
+    "sets": "3 sets of 30 seconds",
+    "details": "Full-body cardio exercise for warm-up or high-intensity intervals.",
+    "image": "/images/jumping jacks.jpg",
+    "duration": 30
+  },
+  {
+    "id": 2,
+    "name": "Lunges",
+    "bodyPart": "Legs",
+    "equipment": "None",
+    "sets": "3 sets of 10-12 reps per leg",
+    "details": "Great for legs and glutes, also improves balance.",
+    "image": "/images/lunges.png",
+    "duration": 40
+  },
+  {
+    "id": 3,
+    "name": "Push-ups",
+    "bodyPart": "Arms",
+    "equipment": "None",
+    "sets": "3 sets of 10-15 reps",
+    "details": "Chest, shoulders and triceps.",
+    "image": "/images/pushup.png",
+    "duration": 45
+  },
+  {
+    "id": 4,
+    "name": "Bodyweight Squats",
+    "bodyPart": "Legs",
+    "equipment": "None",
+    "sets": "3 sets of 12-15 reps",
+    "details": "Targets glutes, quads and hamstrings.",
+    "image": "/images/squats.png",
+    "duration": 40
+  },
+  {
+    "id": 5,
+    "name": "Plank",
+    "bodyPart": "Full Body",
+    "equipment": "None",
+    "sets": "3 sets of 30-60 seconds",
+    "details": "Core strengthening for stability and endurance.",
+    "image": "/images/plank.png",
+    "duration": 60
+  }
+]

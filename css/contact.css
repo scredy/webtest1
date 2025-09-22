@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fff;
+  color: var(--text);
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #fcfcfc;
+  border-radius: 4px;
+}
+
+button {
+  background: #4caf50;
+  color: #fff;
+}
+
+button:hover {
+  background: #45a049;
+}
+#confirmation {
+  text-align: center;
+  color: rgb(0, 10, 0);
+  margin-top: 10px;
+}
+
+.faq {
+  margin: 20px 0;
+}
+
+.faq-question {
+  width: 100%;
+  background: #4caf50;
+  padding: 10px;
+  text-align: left;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background: #f7f7f7;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+.faq-question:hover {
+  background: green;
+}
+
+
+.hq-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.hq-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hq-container p {
+  font-size: 1rem;
+  color: #333;
+}
+
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.icon {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer form {
+  margin-top: 0.5rem;
+}
+
+footer input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+footer button {
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-left: 0.5rem;
+  background: #4caf50;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  padding: 3px;
+}
+
+.social-icons :hover {
+  color: #4caf50;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+
+@media (min-width: 600px) {
+  form {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
