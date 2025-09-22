@@ -1,7 +1,7 @@
 
 
 
-fetch("./data/recipes.json")
+fetch("data/recipes.json")
   .then(r => r.json())
   .then(recipes => {
     renderCards(recipes);
