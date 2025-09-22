@@ -2,7 +2,7 @@
   {
     "title": "Classic Avocado Toast with Poached Egg",
     "category": "breakfast",
-    "image": "/images/avaco toast.png",
+    "image": "./images/avaco toast.png",
     "description": "A timeless breakfast favorite, elevated with a silky poached egg.",
     "ingredients": [
       "2 slices whole-grain bread",
@@ -23,7 +23,7 @@
   {
     "title": "Mediterranean Quinoa Salad with Grilled Chicken",
     "category": "lunch",
-    "image": "/images/quino salad.png",
+    "image": "./images/quino salad.png",
     "description": "A light yet filling salad packed with protein, veggies and herby flavor.",
     "ingredients": [
       "1 cup cooked quinoa",
@@ -47,7 +47,7 @@
   {
     "title": "Lemon Herb Baked Salmon with Asparagus",
     "category": "dinner",
-    "image": "/images/salmon.png",
+    "image": "./images/salmon.png",
     "description": "An easy one-pan dinner with tender salmon and crisp asparagus.",
     "ingredients": [
       "1 salmon fillet (180–200 g)",
@@ -68,7 +68,7 @@
   {
     "title": "Refreshing Mixed Berry Smoothie",
     "category": "breakfast",
-    "image": "/images/smoothi.png",
+    "image": "./images/smoothi.png",
     "description": "A quick, antioxidant-rich smoothie that’s perfect on the go.",
     "ingredients": [
       "1 cup mixed berries (frozen is fine)",
@@ -85,7 +85,7 @@
   {
     "title": "Healthy Avocado Chocolate Mousse",
     "category": "dinner",
-    "image": "/images/mousse.png",
+    "image": "./images/mousse.png",
     "description": "Creamy, rich dessert that’s naturally sweetened and nutritious.",
     "ingredients": [
       "1 ripe avocado",
