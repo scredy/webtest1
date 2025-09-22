@@ -44,7 +44,7 @@ function startTimer(seconds, labelEl, barEl) {
 }
 
 
-fetch("/data/workouts.json")
+fetch("./data/workouts.json")
   .then(res => res.json())
   .then(data => {
     WORKOUTS = Array.isArray(data) ? data : [];
