@@ -5,27 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GreenBite • Mindfulness</title>
-  <link rel="stylesheet" href="/css/mindfulness.css">
-  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="./css/mindfulness.css">
+  <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   
-  <script defer src="/js/utils.js"></script>
-  <script defer src="/js/mindfulness.js"></script>
+  
+  <script defer src="./js/mindfulness.js"></script>
 </head>
 <body>
 <header>
     <nav class="navbar">
        <div class="logo-section">
-        <div><img src="/images/logo.jpeg" alt="logo" class="logo-img"></div>
+        <div><img src="./images/logo.jpeg" alt="logo" class="logo-img"></div>
         <div class="logo">GreenBite</div>
       </div>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="recipes.html">Recipes</a></li>
-        <li><a href="calculator.html">Calculator</a></li>
-        <li><a href="workouts.html">Workouts</a></li>
-        <li><a href="mindfulness.html" class="active">Mindfulness</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./recipes.html">Recipes</a></li>
+        <li><a href="./calculator.html">Calculator</a></li>
+        <li><a href="./workouts.html">Workouts</a></li>
+        <li><a href="./mindfulness.html" class="active">Mindfulness</a></li>
+        <li><a href="./contact.html">Contact</a></li>
       </ul>
       <div class="hamburger">
         <span></span><span></span><span></span>
@@ -63,21 +63,21 @@
     <p class="muted">Enhance your session with calming background sounds.</p>
 
     <div class="sound-grid" id="soundGrid">
-      <button class="sound-btn" data-src="/audio/calming-rain-257596.mp3">
+      <button class="sound-btn" data-src="./audio/calming-rain-257596.mp3">
         
         
         <i class="bi bi-cloud-rain"></i> <span>Rain</span>
       </button>
-      <button class="sound-btn" data-src="/audio/soothing-ocean-waves-372489.mp3">
+      <button class="sound-btn" data-src="./audio/soothing-ocean-waves-372489.mp3">
         <i class="bi bi-water"></i> <span>Waves</span>
       </button>
-      <button class="sound-btn" data-src="/audio/forest-ambience-296528.mp3">
+      <button class="sound-btn" data-src="./audio/forest-ambience-296528.mp3">
         <i class="bi bi-leaf"></i> <span>Forest</span>
       </button>
-      <button class="sound-btn" data-src="/audio/calm-zen-river-flowing-228223.mp3">
+      <button class="sound-btn" data-src="./audio/calm-zen-river-flowing-228223.mp3">
         <i class="bi bi-sun"></i> <span>Zen</span>
       </button>
-      <button class="sound-btn" data-src="/audio/relaxing-guitar-loop-v5-245859.mp3">
+      <button class="sound-btn" data-src="./audio/relaxing-guitar-loop-v5-245859.mp3">
         <i class="bi bi-music-note-beamed"></i> <span>Music</span>
       </button>
       <button class="sound-btn" data-silent="1">
@@ -86,7 +86,6 @@
     </div>
 
     <audio id="ambient" loop></audio>
-    <audio id="beep" src="/assets/sounds/beep.mp3" preload="auto"></audio>
   </div>
 </section>
 
